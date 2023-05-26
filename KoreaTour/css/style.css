@@ -1,0 +1,165 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style:none;
+    font-family: "맑은 고딕";
+    color: #333333;
+}
+
+html,body {
+    min-width: 1200px;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #dddddd;
+}
+
+.wrap {
+    width: 1200px;
+}
+
+.logo {
+    float: left;
+    width: 250px;
+    height: 100px;
+}
+
+.logo img {
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+#menu_bg {
+    width: 1200px;
+    height: 160px;
+    position: absolute;
+    display: none;
+    z-index: 2;
+    top: 100px;
+    background-color: #bbbbbb;
+}
+
+.menu {
+    float: right;
+    width: 800px;
+    height: 100px;
+    z-index: 1;
+}
+
+.navi {
+    float: right;
+    margin-top: 50px;
+    margin-right: 0px;
+}
+
+.navi>li {
+    float: left;
+}
+
+.navi>li>a {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.navi>li>a:hover {
+    background-color: #006478;
+}
+
+.submemu {
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    display: none;
+    z-index: 3;
+    background-color: #bbbbbb;
+}
+
+.submenu>li>a {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #bbbbbb;
+    color: #333333;
+}
+
+.submemu>li>a>:hover {
+    background-color: #006478;
+}
+
+.imgslide {
+    width: 1200px;
+    height: 300px;
+}
+
+.content {
+    width: 1200px;
+    height: 200px;
+}
+
+.notice {
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+
+.gallary {
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+
+.shortcut {
+    float: right;
+    width: 400px;
+    height: 200px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #bbbbbb;
+}
+
+.copy {
+    float: left;
+    width: 550px;
+    height: 100px;
+}
+
+.site {
+    float: right;
+    width: 400px;
+    height: 100px;
+}
+
+.sns {
+    float: right;
+    width: 400px;
+    height: 50px;
+}
+
+.familysite {
+    width: 400px;
+    height: 50px;
+}
